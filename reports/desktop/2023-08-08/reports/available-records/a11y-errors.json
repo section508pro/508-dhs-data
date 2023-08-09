@@ -1,0 +1,256 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-200-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.usa-navbar > div.region > div.header-inner > div#search-block-wrap",
+            "boundingRect": {
+              "top": 67,
+              "bottom": 106,
+              "left": 846,
+              "right": 1187,
+              "width": 341,
+              "height": 39
+            },
+            "snippet": "<div id=\"search-block-wrap\" class=\"tablet:grid-col-4\" role=\"searchbox\">",
+            "nodeLabel": "\t\n\t",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-201-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL",
+            "selector": "div.grid-row > aside.tablet:grid-col-3 > div.region > ul.usa-sidenav",
+            "boundingRect": {
+              "top": 304,
+              "bottom": 845,
+              "left": 163,
+              "right": 395,
+              "width": 232,
+              "height": 540
+            },
+            "snippet": "<ul class=\"usa-sidenav\">",
+            "nodeLabel": "Freedom of Information Act (FOIA)\nAvailable Records\nFOIA Library\nComponent Libr…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-202-UL",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL,5,UL",
+                  "selector": "aside.tablet:grid-col-3 > div.region > ul.usa-sidenav > ul.usa-sidenav__sublist",
+                  "boundingRect": {
+                    "top": 366,
+                    "bottom": 844,
+                    "left": 163,
+                    "right": 395,
+                    "width": 232,
+                    "height": 478
+                  },
+                  "snippet": "<ul class=\"usa-sidenav__sublist\">",
+                  "nodeLabel": "Available Records\nFOIA Library\nComponent Libraries\nComponent FOIA Logs\nDHS Majo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-202-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL,5,UL",
+            "selector": "aside.tablet:grid-col-3 > div.region > ul.usa-sidenav > ul.usa-sidenav__sublist",
+            "boundingRect": {
+              "top": 366,
+              "bottom": 844,
+              "left": 163,
+              "right": 395,
+              "width": 232,
+              "height": 478
+            },
+            "snippet": "<ul class=\"usa-sidenav__sublist\">",
+            "nodeLabel": "Available Records\nFOIA Library\nComponent Libraries\nComponent FOIA Logs\nDHS Majo…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-203-UL",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL,5,UL,1,UL",
+                  "selector": "div.region > ul.usa-sidenav > ul.usa-sidenav__sublist > ul.usa-sidenav__sublist",
+                  "boundingRect": {
+                    "top": 403,
+                    "bottom": 575,
+                    "left": 163,
+                    "right": 395,
+                    "width": 232,
+                    "height": 172
+                  },
+                  "snippet": "<ul class=\"usa-sidenav__sublist\">",
+                  "nodeLabel": "FOIA Library\nComponent Libraries\nComponent FOIA Logs\nDHS Major Information Syst…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-204-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 586,
+              "bottom": 647,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Topics\nPRIVACY",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-205-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 586,
+                    "bottom": 611,
+                    "left": 427,
+                    "right": 1187,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Topics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-206-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,2,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 666,
+              "bottom": 727,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nFREEDOM OF INFORMATION ACT (FOIA) PRIVACY",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-207-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,2,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 666,
+                    "bottom": 691,
+                    "left": 427,
+                    "right": 1187,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
