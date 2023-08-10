@@ -1,0 +1,170 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-177-H3",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,2,H3",
+            "selector": "article > div > div.field > h3",
+            "boundingRect": {
+              "top": 1265,
+              "bottom": 1293,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 28
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "IRVS Software Highlights",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-178-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 2351,
+              "bottom": 2412,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Topics\nPREVENTING TERRORISM",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-179-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 2351,
+                    "bottom": 2376,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Topics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-180-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,2,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 2431,
+              "bottom": 2517,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 87
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nCRITICAL INFRASTRUCTURE SCIENCE AND TECHNOLOGY",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-181-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,2,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 2431,
+                    "bottom": 2456,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

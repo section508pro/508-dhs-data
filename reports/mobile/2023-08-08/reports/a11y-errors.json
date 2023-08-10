@@ -1,0 +1,113 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-83-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero",
+            "boundingRect": {
+              "top": 390,
+              "bottom": 435,
+              "left": -872,
+              "right": -492,
+              "width": 380,
+              "height": 44
+            },
+            "snippet": "<a href=\"/news/2023/08/07/dhs-announces-additional-3749-million-funding-boost-state…\" id=\"button-hero\" class=\"usa-button usa-button--outline usa-button--inverse survey-processed\" tabindex=\"-1\">",
+            "nodeLabel": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: button-hero"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-84-A",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero",
+                  "boundingRect": {
+                    "top": 335,
+                    "bottom": 399,
+                    "left": -428,
+                    "right": -48,
+                    "width": 380,
+                    "height": 65
+                  },
+                  "snippet": "<a href=\"/news/2023/08/01/dhs-announces-two-additional-prc-based-companies-result-f…\" id=\"button-hero\" class=\"usa-button usa-button--outline usa-button--inverse survey-processed\" tabindex=\"-1\">",
+                  "nodeLabel": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-85-A",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 346,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 44
+                  },
+                  "snippet": "<a href=\"https://www.dhs.gov/ntas/advisory/national-terrorism-advisory-system-bulle…\" id=\"button-hero\" class=\"usa-button usa-button--outline usa-button--inverse survey-processed\" tabindex=\"0\">",
+                  "nodeLabel": "Learn More"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-87-A",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero",
+                  "boundingRect": {
+                    "top": 390,
+                    "bottom": 435,
+                    "left": 904,
+                    "right": 1284,
+                    "width": 380,
+                    "height": 44
+                  },
+                  "snippet": "<a href=\"/news/2023/05/10/dhs-and-doj-finalize-rule-incentivize-use-lawful-immigrat…\" id=\"button-hero\" class=\"usa-button usa-button--outline usa-button--inverse survey-processed\" tabindex=\"-1\">",
+                  "nodeLabel": "div.grid-container > div.usa-hero__callout > div.field > a#button-hero"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
