@@ -1,0 +1,223 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-194-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.usa-navbar > div.region > div.header-inner > div#search-block-wrap",
+            "boundingRect": {
+              "top": 67,
+              "bottom": 106,
+              "left": 846,
+              "right": 1187,
+              "width": 341,
+              "height": 39
+            },
+            "snippet": "<div id=\"search-block-wrap\" class=\"tablet:grid-col-4\" role=\"searchbox\">",
+            "nodeLabel": "\t\n\t",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-195-H3",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,0,DIV,2,H3",
+            "selector": "article > div > div.field > h3",
+            "boundingRect": {
+              "top": 586,
+              "bottom": 614,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 28
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "How Does It Work",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-196-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL",
+            "selector": "div.grid-row > aside.tablet:grid-col-3 > div.region > ul.usa-sidenav",
+            "boundingRect": {
+              "top": 328,
+              "bottom": 646,
+              "left": 163,
+              "right": 395,
+              "width": 232,
+              "height": 317
+            },
+            "snippet": "<ul class=\"usa-sidenav\">",
+            "nodeLabel": "Countering Weapons of Mass Destruction Office\nDHS First Responder Vaccine Initi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-197-UL",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL,12,UL",
+                  "selector": "aside.tablet:grid-col-3 > div.region > ul.usa-sidenav > ul.usa-sidenav__sublist",
+                  "boundingRect": {
+                    "top": 390,
+                    "bottom": 645,
+                    "left": 163,
+                    "right": 395,
+                    "width": 232,
+                    "height": 255
+                  },
+                  "snippet": "<ul class=\"usa-sidenav__sublist\">",
+                  "nodeLabel": "DHS First Responder Vaccine Initiative (FRVI) Pilot Program 2021\nDetecting Biot…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-198-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 1054,
+              "bottom": 1114,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nBIOLOGICAL COUNTERTERRORISM",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-199-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 1054,
+                    "bottom": 1078,
+                    "left": 427,
+                    "right": 1187,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
