@@ -1,0 +1,55 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-283-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.usa-navbar > div.region > div.header-inner > div#search-block-wrap",
+            "boundingRect": {
+              "top": 67,
+              "bottom": 106,
+              "left": 846,
+              "right": 1187,
+              "width": 341,
+              "height": 39
+            },
+            "snippet": "<div id=\"search-block-wrap\" class=\"tablet:grid-col-4\" role=\"searchbox\">",
+            "nodeLabel": "\t\n\t",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

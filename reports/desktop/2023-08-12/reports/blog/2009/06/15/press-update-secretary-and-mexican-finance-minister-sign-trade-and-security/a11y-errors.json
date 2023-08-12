@@ -1,0 +1,214 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-328-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.usa-navbar > div.region > div.header-inner > div#search-block-wrap",
+            "boundingRect": {
+              "top": 67,
+              "bottom": 106,
+              "left": 846,
+              "right": 1187,
+              "width": 341,
+              "height": 39
+            },
+            "snippet": "<div id=\"search-block-wrap\" class=\"tablet:grid-col-4\" role=\"searchbox\">",
+            "nodeLabel": "\t\n\t",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-329-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL",
+            "selector": "div.grid-row > aside.tablet:grid-col-3 > div.region > ul.usa-sidenav",
+            "boundingRect": {
+              "top": 328,
+              "bottom": 994,
+              "left": 163,
+              "right": 395,
+              "width": 232,
+              "height": 666
+            },
+            "snippet": "<ul class=\"usa-sidenav\">",
+            "nodeLabel": "News\nAll DHS News\nApps\nBlog\nComunicados de Prensa\nData\nEvents\nFact Sheets\nFeatu…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-330-UL",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,ASIDE,0,DIV,0,UL,1,UL",
+                  "selector": "aside.tablet:grid-col-3 > div.region > ul.usa-sidenav > ul.usa-sidenav__sublist",
+                  "boundingRect": {
+                    "top": 367,
+                    "bottom": 993,
+                    "left": 163,
+                    "right": 395,
+                    "width": 232,
+                    "height": 626
+                  },
+                  "snippet": "<ul class=\"usa-sidenav__sublist\">",
+                  "nodeLabel": "All DHS News\nApps\nBlog\nComunicados de Prensa\nData\nEvents\nFact Sheets\nFeatured N…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-331-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 1026,
+              "bottom": 1087,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Topics\nINTERNATIONAL ENGAGEMENT",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-332-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 1026,
+                    "bottom": 1051,
+                    "left": 427,
+                    "right": 1187,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Topics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-333-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,2,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 1106,
+              "bottom": 1166,
+              "left": 427,
+              "right": 1187,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nINTERNATIONAL",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-334-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,2,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 1106,
+                    "bottom": 1131,
+                    "left": 427,
+                    "right": 1187,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

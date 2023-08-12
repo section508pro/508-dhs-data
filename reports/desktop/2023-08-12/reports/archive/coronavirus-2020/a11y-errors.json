@@ -1,0 +1,382 @@
+[
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-321-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.usa-navbar > div.region > div.header-inner > div#search-block-wrap",
+            "boundingRect": {
+              "top": 67,
+              "bottom": 106,
+              "left": 846,
+              "right": 1187,
+              "width": 341,
+              "height": 39
+            },
+            "snippet": "<div id=\"search-block-wrap\" class=\"tablet:grid-col-4\" role=\"searchbox\">",
+            "nodeLabel": "\t\n\t",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-88-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV,0,DIV,1,H3,0,A",
+            "selector": "div.two-columns > div.first-column > h3 > a.white",
+            "boundingRect": {
+              "top": 702,
+              "bottom": 731,
+              "left": 378,
+              "right": 691,
+              "width": 313,
+              "height": 29
+            },
+            "snippet": "<a class=\"white survey-processed\" href=\"/science-and-technology/news/2020/05/13/news-release-st-launches-indoor-pr…\">",
+            "nodeLabel": "Coronavirus Stability Calculator",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #005288, background color: #0078ae, font size: 17.2pt (22.88px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-322-DIV",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV",
+                  "selector": "div > div.field > center > div.two-columns",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 1127,
+                    "left": 163,
+                    "right": 923,
+                    "width": 760,
+                    "height": 463
+                  },
+                  "snippet": "<div class=\"two-columns background-blue\">",
+                  "nodeLabel": "Coronavirus Stability Calculator\n\nDHS Science & Technology has developed an onl…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-89-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV,0,DIV,3,P,0,A",
+            "selector": "div.two-columns > div.first-column > p > a.white",
+            "boundingRect": {
+              "top": 828,
+              "bottom": 850,
+              "left": 378,
+              "right": 476,
+              "width": 98,
+              "height": 22
+            },
+            "snippet": "<a class=\"white survey-processed\" href=\"/science-and-technology/news/2020/05/13/news-release-st-launches-indoor-pr…\">",
+            "nodeLabel": "Learn more >",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #005288, background color: #0078ae, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-322-DIV",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV",
+                  "selector": "div > div.field > center > div.two-columns",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 1127,
+                    "left": 163,
+                    "right": 923,
+                    "width": 760,
+                    "height": 463
+                  },
+                  "snippet": "<div class=\"two-columns background-blue\">",
+                  "nodeLabel": "Coronavirus Stability Calculator\n\nDHS Science & Technology has developed an onl…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-91-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV,1,DIV,1,H3,0,A",
+            "selector": "div.two-columns > div.second-column > h3 > a.white",
+            "boundingRect": {
+              "top": 993,
+              "bottom": 1019,
+              "left": 386,
+              "right": 686,
+              "width": 300,
+              "height": 26
+            },
+            "snippet": "<a class=\"white survey-processed\" href=\"/coronavirus/coronavirus-news-updates\">",
+            "nodeLabel": "DHS Coronavirus News & Updates",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #005288, background color: #0078ae, font size: 15.6pt (20.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-322-DIV",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV",
+                  "selector": "div > div.field > center > div.two-columns",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 1127,
+                    "left": 163,
+                    "right": 923,
+                    "width": 760,
+                    "height": 463
+                  },
+                  "snippet": "<div class=\"two-columns background-blue\">",
+                  "nodeLabel": "Coronavirus Stability Calculator\n\nDHS Science & Technology has developed an onl…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-92-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV,1,DIV,3,H3,0,A",
+            "selector": "div.two-columns > div.second-column > h3 > a.white",
+            "boundingRect": {
+              "top": 1065,
+              "bottom": 1091,
+              "left": 410,
+              "right": 662,
+              "width": 252,
+              "height": 26
+            },
+            "snippet": "<a class=\"white survey-processed\" href=\"/coronavirus/frequently-asked-questions\">",
+            "nodeLabel": "Frequently Asked Questions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #005288, background color: #0078ae, font size: 15.6pt (20.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-322-DIV",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV",
+                  "selector": "div > div.field > center > div.two-columns",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 1127,
+                    "left": 163,
+                    "right": 923,
+                    "width": 760,
+                    "height": 463
+                  },
+                  "snippet": "<div class=\"two-columns background-blue\">",
+                  "nodeLabel": "Coronavirus Stability Calculator\n\nDHS Science & Technology has developed an onl…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-323-H3",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,1,CENTER,2,DIV,0,DIV,1,H3",
+            "selector": "center > div.two-columns > div.first-column > h3",
+            "boundingRect": {
+              "top": 702,
+              "bottom": 733,
+              "left": 163,
+              "right": 892,
+              "width": 729,
+              "height": 31
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Coronavirus Stability Calculator",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-324-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 4932,
+              "bottom": 4993,
+              "left": 163,
+              "right": 923,
+              "width": 760,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nARCHIVE",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-325-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 4932,
+                    "bottom": 4957,
+                    "left": 163,
+                    "right": 923,
+                    "width": 760,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
