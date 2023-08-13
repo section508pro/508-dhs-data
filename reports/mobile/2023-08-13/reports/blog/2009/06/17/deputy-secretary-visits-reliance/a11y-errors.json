@@ -1,0 +1,77 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-131-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,7,DIV,0,A",
+            "selector": "div.field > div > div > a.survey-processed",
+            "boundingRect": {
+              "top": 1080,
+              "bottom": 1100,
+              "left": 346,
+              "right": 346,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"http://www.dhs.gov/journal/theblog/uploaded_images/DepSecretary-QA-747422.…\" class=\"survey-processed\">",
+            "nodeLabel": "div.field > div > div > a.survey-processed",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-132-A",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,7,DIV,1,A",
+            "selector": "div.field > div > div > a.survey-processed",
+            "boundingRect": {
+              "top": 1080,
+              "bottom": 1100,
+              "left": 346,
+              "right": 346,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"http://www.dhs.gov/journal/theblog/uploaded_images/DepSecretary-QA-780407.…\" class=\"survey-processed\">",
+            "nodeLabel": "div.field > div > div > a.survey-processed",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
