@@ -1,0 +1,245 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-258-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 373,
+              "bottom": 433,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Supplier\nUNICATION",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-259-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,1,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 373,
+                    "bottom": 397,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Supplier"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-260-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,2,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 452,
+              "bottom": 513,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Equipment Type\nPROJECT 25 PHASE 1 TRUNKED SUBSCRIBER UNIT",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-261-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,2,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 452,
+                    "bottom": 477,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Equipment Type"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-262-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,3,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 532,
+              "bottom": 593,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "CAB Test Requirements Year\n2016",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-263-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,3,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 532,
+                    "bottom": 557,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "CAB Test Requirements Year"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-264-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,6,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 790,
+              "bottom": 851,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 61
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Topics\nSCIENCE AND TECHNOLOGY",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-265-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,6,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 790,
+                    "bottom": 815,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Topics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-266-UL",
+            "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,7,UL",
+            "selector": "div#block-mainpagecontent > article > div > ul.usa-collection__meta",
+            "boundingRect": {
+              "top": 870,
+              "bottom": 1048,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 178
+            },
+            "snippet": "<ul class=\"usa-collection__meta clearfix\">",
+            "nodeLabel": "Keywords\nFIRST RESPONDERS GROUP (FRG) INTEROPERABLE COMMUNICATION OFFICE FOR IN…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-267-H2",
+                  "path": "1,HTML,1,BODY,2,DIV,4,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,ARTICLE,0,DIV,7,UL,0,H2",
+                  "selector": "article > div > ul.usa-collection__meta > h2",
+                  "boundingRect": {
+                    "top": 870,
+                    "bottom": 895,
+                    "left": 16,
+                    "right": 396,
+                    "width": 380,
+                    "height": 25
+                  },
+                  "snippet": "<h2>",
+                  "nodeLabel": "Keywords"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
