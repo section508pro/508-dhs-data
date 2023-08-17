@@ -1,0 +1,1594 @@
+[
+  {
+    "path": "/",
+    "score": 0.78,
+    "performance": 0.47,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.75
+  },
+  {
+    "path": "/2007-2009-fusion-center-success-stories",
+    "score": 0.9,
+    "performance": 0.81,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2010-baseline-capabilities-assessment-fusion-centers",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2010-fusion-center-success-stories",
+    "score": 0.9,
+    "performance": 0.78,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2011-fusion-center-success-stories",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2012-fusion-center-success-stories",
+    "score": 0.93,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2012-nuclear-security-summit",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2013-fusion-center-success-stories",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-diversity-management",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-excellence",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-exceptional-service",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-exemplary-service",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-meritorious-service",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-valor",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-awards-volunteer-service",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-fusion-center-success-stories",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-laws-dhs-impacts",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2014-secretarys-award-valor",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2015-awards",
+    "score": 0.88,
+    "performance": 0.81,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2015-fusion-center-success-stories",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2015-secretarys-award-valor",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2017-secretary-s-awards",
+    "score": 0.86,
+    "performance": 0.72,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2018-charlottesville-rttx-photos",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2018-north-dakota-lttx-photos",
+    "score": 0.9,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2018-OMB-Scorecard",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2018-philadelphia-rttx-photos",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2018-SSPP",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2019-secretarys-awards",
+    "score": 0.88,
+    "performance": 0.8,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2020-secretarys-awards",
+    "score": 0.81,
+    "performance": 0.51,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2021/12/07/dhs-announces-deadline-extension-national-climate-resilience-prize-competition",
+    "score": 0.91,
+    "performance": 0.84,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2022-secretarys-awards",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/2023-secretarys-awards",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/21st-century-border-calendar-events",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/508-testing",
+    "score": 0.91,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/508-tools",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/508-training",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-citizenship-and-immigration-services-ombudsman",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-dhs",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-dhs-day",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-office-equal-employment-opportunity-and-diversity-division",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-office-legislative-affairs",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-office-military-advisor",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-pil",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/aboutoido",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academe-policy-research-senior-advisory-committee-members-homeland-security-advisory-council",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academic-engagement",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academicengagement",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academicoutreach",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academicoverview",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/academicresilience",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibility",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibility-requirements",
+    "score": 0.93,
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021/partners",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021/schedule",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021/speakers",
+    "score": 0.91,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021/support",
+    "score": 0.89,
+    "performance": 0.78,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2021/who-we-are",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2022",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibilityday2023",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accion-diferida-para-los-llegados-en-la-infancia",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/accomplishments-and-announcements",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/acerca-de-la-oido",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/acquisition-innovations-motion",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/acquisition-policy",
+    "score": 0.91,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/action-plan",
+    "score": 0.9,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/additional-resources",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/adjudicating-grader-retest-requirements",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/administrative-revisions-dhs-instruction-023-01-001-01-rev-01",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/adopt-child-internationally",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/advance-acquisition-planning-forecast-contract-opportunities",
+    "score": 0.89,
+    "performance": 0.77,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/advanced-imaging-technology-documents",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/advanced-radiation-monitoring-device",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/advanced-technology-demonstration",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/advancing-nuclear-detection-technologies",
+    "score": 0.89,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/advisory-panels-committees",
+    "score": 0.91,
+    "performance": 0.84,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/aep-deliverables",
+    "score": 0.91,
+    "performance": 0.84,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/all-news-updates",
+    "score": 0.93,
+    "performance": 0.94,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/all-news-updates/1639",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/177",
+    "score": 0.88,
+    "performance": 0.83,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/179",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/183",
+    "score": 0.9,
+    "performance": 0.88,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/8685",
+    "score": 0.88,
+    "performance": 0.83,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/8771",
+    "score": 0.91,
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/8946",
+    "score": 0.88,
+    "performance": 0.8,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/all-news-updates/9007",
+    "score": 0.86,
+    "performance": 0.74,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/allieswelcome",
+    "score": 0.91,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/annual-fusion-center-assessment-and-gap-mitigation-activities",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/annual-report-congress",
+    "score": 0.89,
+    "performance": 0.76,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/antidiscrimination-group",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/apoyo-del-dhs-la-aplicacion-de-las-leyes-laborales-y-de-empleo",
+    "score": 0.9,
+    "performance": 0.79,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/apply-for-a-us-passport",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/architecture-and-plans-directorate",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive",
+    "score": 0.87,
+    "performance": 0.67,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/coronavirus-news-updates",
+    "score": 0.9,
+    "performance": 0.78,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/cybersecurity-and-critical-infrastructure",
+    "score": 0.86,
+    "performance": 0.75,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/directly-supporting-hhs-and-cdc",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/early-engagement",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/frequently-asked-questions",
+    "score": 0.9,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/overview-dhs-response",
+    "score": 0.82,
+    "performance": 0.49,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/presidents-biodefense-strategy",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/coronavirus/protecting-air-travelers-and-american-public",
+    "score": 0.86,
+    "performance": 0.72,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/dhs-progress-2011-combating-cybercrimes",
+    "score": 0.89,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/dhs-progress-2011-southwest-border",
+    "score": 0.91,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/grants",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/homeland-security-careers/milspouse2023",
+    "score": 0.94,
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/migrant-protection-protocols-trump-administration",
+    "score": 0.88,
+    "performance": 0.71,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2009/01/30/immigration-and-border-security-action-directive-issued",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2011/05/17/testimony-alan-bersin-commissioner-us-customs-and-border-protection-senate-judiciary",
+    "score": 0.91,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2012/06/05/secretary-napolitano-announces-dhs-northern-border-strategy",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2012/07/30/written-testimony-policy-house-homeland-security-subcommittee-counterterrorism",
+    "score": 0.91,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2015/04/22/written-testimony-cbp-senate-committee-homeland-security-and-governmental-affairs",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2015/05/13/written-testimony-cbp-senate-committee-homeland-security-and-governmental-affairs",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2015/09/09/written-testimony-dhs-southern-border-and-approaches-campaign-joint-task-force-west",
+    "score": 0.88,
+    "performance": 0.73,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2015/09/14/written-testimony-cbp-commissioner-senate-committee-homeland-security-and",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2016/04/28/statement-record-cbp-house-natural-resources-subcommittee-oversight-and",
+    "score": 0.91,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2017/04/04/written-testimony-dhs-jtf-east-director-house-homeland-security-subcommittee-border",
+    "score": 0.88,
+    "performance": 0.72,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2018/01/18/written-testimony-ice-house-homeland-security-subcommittee-counterterrorism-and",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2018/06/12/dhs-announces-strengthened-northern-border-strategy",
+    "score": 0.87,
+    "performance": 0.66,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2020/07/13/weekly-update-dhs-response-covid-19",
+    "score": 0.91,
+    "performance": 0.87,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/news/2021/10/04/dhs-statement-updated-cdc-order",
+    "score": 0.89,
+    "performance": 0.76,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/boston-framework-cve-fact-sheet",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/cve-tool-kit",
+    "score": 0.88,
+    "performance": 0.71,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/dhs-complaint-avenues-guidance",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/exemplar-training-announcement-engineering",
+    "score": 0.88,
+    "performance": 0.72,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/exemplar-training-announcement-multi-hazard-mitigation",
+    "score": 0.9,
+    "performance": 0.78,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/exemplar-training-announcement-scientific-research",
+    "score": 0.88,
+    "performance": 0.7,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/guide-developing-local-framework-prevent-and-counter-violent-extremism-and-promote",
+    "score": 0.89,
+    "performance": 0.74,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/publication/immigration-executive-actions",
+    "score": 0.9,
+    "performance": 0.79,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/recursos-adicionales-de-mpp",
+    "score": 0.87,
+    "performance": 0.79,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/sala-de-prensa-mpp",
+    "score": 0.9,
+    "performance": 0.81,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/sandy",
+    "score": 0.87,
+    "performance": 0.67,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/science-and-technology/bird-cyber-2022-call-proposals-webinar",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/science-and-technology/hsstac",
+    "score": 0.89,
+    "performance": 0.77,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/science-and-technology/lrbaa-today-air-based-technologies-webinar",
+    "score": 0.92,
+    "performance": 0.91,
+    "accessibility": 0.93,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/topic/executive-immigration-action",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/archive/unsolicited-proposal-faqs",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/are-you-ready-seesay-privacy-policy",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/arresting-fleeing-vehicle-push-button",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/asia-pacific-joint-declaration-aviation-security",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/ask-secretary",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/assessments-directorate",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/available-records",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/aviation-security",
+    "score": 0.88,
+    "performance": 0.73,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/become-citizen",
+    "score": 0.89,
+    "performance": 0.76,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/benjamin-e-jacober",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/beyond-border",
+    "score": 0.87,
+    "performance": 0.69,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/beyond-border-accomplishments-and-announcements",
+    "score": 0.91,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/beyond-border-outreach",
+    "score": 0.88,
+    "performance": 0.72,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/biometrics",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/biowatch-program",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/bips-04-integrated-rapid-visual-screening-series-irvs-buildings",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/01/28/getting-work",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/01/30/first-week",
+    "score": 0.88,
+    "performance": 0.7,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/01/30/secretary-napolitano-meets-department-agency-staff",
+    "score": 0.76,
+    "performance": 0.43,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/02/04/ice-focus-immigration-fugitives-getting-results",
+    "score": 0.88,
+    "performance": 0.7,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/02/04/responding-ice-storms",
+    "score": 0.74,
+    "performance": 0.4,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/02/05/secretary-napolitano-meets-fema-staff",
+    "score": 0.7,
+    "performance": 0.27,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/02/11/secretary-continues-her-tour-components",
+    "score": 0.76,
+    "performance": 0.49,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/02/20/secretary-napolitanos-new-york-visit",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/02/23/honoring-flight-1549",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/blog/2009/03/04/partnership-key-reducing-risk-rail",
+    "score": 0.89,
+    "performance": 0.86,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/06/uncommon-valor",
+    "score": 0.91,
+    "performance": 0.84,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/09/trip-gulf-coast",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/10/stimulating-economy",
+    "score": 0.89,
+    "performance": 0.77,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/16/secretary-napolitanos-trip-germany",
+    "score": 0.84,
+    "performance": 0.75,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/03/19/g6-plus-1-meeting-germany",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/20/uscis-and-fbi-achieve-interim-backlog-elimination-goals",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/23/transfer-authority-ceremony",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/27/efficiency-review",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/03/27/napolitano-monitors-flooding-north-dakota-and-minnesota",
+    "score": 0.75,
+    "performance": 0.49,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/04/06/secretary-discusses-southwest-border-security-efforts",
+    "score": 0.75,
+    "performance": 0.45,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/04/07/southwest-border",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/04/14/michelle-obama-visits-homeland-security",
+    "score": 0.87,
+    "performance": 0.76,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/04/24/addressing-employment-based-visa-wait-times",
+    "score": 0.91,
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/05/15/honoring-our-fallen-heroes",
+    "score": 0.92,
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/05/28/preparing-hurricane-season",
+    "score": 0.9,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/01/western-hemisphere-travel-initiative-boosting-border-security-and-efficiency",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/08/department’s-five-responsibilities",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/14/five-responsibilities-one-unified-mission",
+    "score": 0.91,
+    "performance": 0.84,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/15/press-update-secretary-and-mexican-finance-minister-sign-trade-and-security",
+    "score": 0.87,
+    "performance": 0.68,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/16/morning-roundup-june-16th",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/16/preparedness-grants",
+    "score": 0.81,
+    "performance": 0.63,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/17/deputy-secretary-visits-reliance",
+    "score": 0.76,
+    "performance": 0.51,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/blog/2009/06/17/morning-roundup-june-17th",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/17/preparedness-grants-focus",
+    "score": 0.91,
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/18/focused-effort-cybersecurity",
+    "score": 0.9,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/18/morning-roundup-june-18th",
+    "score": 0.92,
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/18/secretary-napolitano-speaks-about-emerged-threat",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/18/tsa-blog-camping-hunting-fishing-gear",
+    "score": 0.89,
+    "performance": 0.75,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/2009/06/19/morning-roundup-june-19th",
+    "score": 0.9,
+    "performance": 0.78,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/CP3",
+    "score": 0.89,
+    "performance": 0.76,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/DHSwill",
+    "score": 0.93,
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/EJ_Strategy_Revision",
+    "score": 0.95,
+    "performance": 0.97,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/LEP-resources",
+    "score": 0.88,
+    "performance": 0.72,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/SEP",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/Unication-G4-Pager-Portable-Subscriber",
+    "score": 0.91,
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/Unication-U3-Portable-Subscriber",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  }
+]
